@@ -2,7 +2,7 @@
 
 One of the main problems I had with GitHub was creating a repository for this class. Because there are so many options available when you first boot up GitHub, I was a little **overwhelmed**. However I wanted to fix the issue, so so I began learning more about GitHub
 
-#### To do this , I:
+#### To do this, I:
 
 - Used the course website to get a better understanding of the material. 
 
