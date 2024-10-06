@@ -1,0 +1,3 @@
+After incorporating elements of balance into my yoga webpage, I definitely noticed a difference in the readability of the information on the page. The colors made the most noticeable change as it no only fit with the content of the page, but also made the page seem concruent with itself. 
+
+My final design is very close to what I hoped for, and I'm excited to continue adding to it in the future. I did not use flote or margins and didn't run into any significant challenges when designing my page. 
