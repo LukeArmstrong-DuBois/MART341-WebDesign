@@ -1,0 +1,113 @@
+<html lang="en-US"></html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website to introduce core yoga poses and how to perform them ">
+    <meta name="author" content="Luke Armstrong-DuBois">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Tutorial Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        
+      body {background-color: rgb(124, 255, 203)}
+      h2 {color: rgb(26, 0, 174)}
+
+      nav {
+            float: right; /* Tells the nav items to float to the right of its container */
+            padding: 0 10px 10px 10px;
+        } 
+        nav a {
+            text-decoration: none; /* Removes the underline for each link */
+            padding: 10px; /* Adds spacing around each link */
+            color: black; /* Set a color for the text, if needed */
+            display: inline-block; /* Ensures the links are treated like blocks within the nav */
+        } 
+
+      table {
+      width: 80%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1.5px solid #000000;
+      padding: 8px;
+    }
+    th {
+      background-color: #89ebff;
+      color: rgb(0, 0, 0);
+    }
+    td {
+      background-color: #b889ff;
+      color: rgb(0, 0, 0);
+    }
+    
+    </style>
+  </head>
+
+  <body>
+      <!-- navigation section -->
+      <nav>
+        <a href="index.html">Homepage</a>
+        <a href="poses.html">Beginner Poses</a>
+        <a href="scheduling.html">Schedule making</a>
+    </nav>
+
+    <h1>Core Yoga Poses</h1>
+    <br />
+    <h2><b>Beginner Yoga Poses</b></h2>
+
+    <p>Here are some poses that I did while starting my yoga journey.<br />
+        Master these three poses, and you'll be ready for more advanced ones.</p>
+
+        <img src="images/Child-pose-visual.jpg" alt="An image of someone doing child's pose" title="child's pose visual aid" width="400" height="250" />
+
+        <img src="images/Forward-fold-visual.jpg" title="forward fold visual aid" width="400" height="250" />
+
+        <img src="images/Low-lunge-visual.jpg" alt="An image of someone doing low lunge" title="low lunge visual aid" width="400" height="250" />
+        <br />
+
+        <table>
+            <tr>
+                <th scope="col">Child's Pose</th>
+                <td>Hold 90 sec</td>
+                <th scope="col">Forward Fold</th>
+                <td>Hold 45 sec</td>
+                <th scope="col">Low Lunge</th>
+                <td>Hold 20 sec</td>
+             </tr>
+        </table>
+
+        <p>While these poses might seem easy, they will be mainstays in your yoga practices over the years!<br /> Holding poses like these for a few moments a day can be more beneficial to your body than complex ones that are popular on social media.</p>
+
+        <p><b>Here is a checklist for you to keep track of what poses you've completed:</b></p>
+        
+        <input type="checkbox" name="service" value="Child" /> Child's Pose
+        <br />
+        <input type="checkbox" name="service" value="Fold" /> Forward Fold
+        <br />
+        <input type="checkbox" name="service" value="Lunge" /> Low Lunge
+        <br />
+      <hr>
+
+      <h2>Sign up for our Yoga newsletter!</h2>
+
+      <fieldset>
+        <form>
+            <label for="username">Name:</label>
+            <input type="text" name="username" id="username" placeholder="Joe Schmoe" required /><br />
+            <label for="password">Birth Day:</label>
+            <input type="date" name="depart" id="departure-date" /><br />
+            <textarea name="comments" id="test-textarea">Your history with Yoga ...</textarea><br />
+            <input type="submit" value="Submit" />
+        </form>
+     </fieldset>
+     
+
+      
+      
+      
+      
+
+
+    
+  </body>
+
+</html>
