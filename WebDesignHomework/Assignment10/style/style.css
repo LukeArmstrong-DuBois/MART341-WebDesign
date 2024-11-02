@@ -1,0 +1,55 @@
+body {
+    background-color: #e2d1aa;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff7519;
+    border: 2px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: #000000;
+}
+
+.pumpkin-carving-box {
+    background-color: #ffb031;
+    border: 2px solid #8B4513;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0;
+}
+
+.box-2 {
+    background-color: #da501e;
+    border: 2px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0;
+}
+
+#textlook {
+    font-family: Impact;
+    font-weight: bolder;
+    color: rgb(43, 0, 0);
+    text-align: center;
+ }
+
+h1, h2 {
+    color: #311100;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
