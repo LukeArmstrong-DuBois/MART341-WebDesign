@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spoons for Eating Spaghetti</title>
+</head>
+<body>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Spaghetti Utensils</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forks.html">Forks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="spoons.html">Spoons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chopsticks.html">Chopsticks</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- info section -->
+    <div class="container">
+        <h1>Spoons: Good for collecting sauce and slurping it later</h1>
+        <p>Use this if you crave a challenge when eating at a restaurant.</p>
+    </div>
+
+    <canvas id="spoonCanvas" width="200" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('spoonCanvas');
+        const ctx = canvas.getContext('2d');
+    // Draw spoon
+        ctx.fillStyle = '#8B4513'; 
+        ctx.fillRect(90, 200, 20, 150);
+
+        ctx.beginPath();
+        ctx.ellipse(100, 200, 30, 50, 0, 0, 2 * Math.PI);
+        ctx.fillStyle = "silver";
+        ctx.fill();
+    </script>
+</body>
+</html>

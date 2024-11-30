@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chopsticks for Eating Spaghetti</title>
+</head>
+<body>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Spaghetti Utensils</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forks.html">Forks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="spoons.html">Spoons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chopsticks.html">Chopsticks</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- info section -->
+    <div class="container">
+        <h1>Chopsticks: Good for staying in the present moment</h1>
+        <p>It's going to take a while, but you'll be more mindful by the end.</p>
+    </div>
+
+    
+    <canvas id="chopsticksCanvas" width="200" height="200"></canvas>
+    <script>
+        const canvas = document.getElementById('chopsticksCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Draw chopstick
+        ctx.beginPath();
+        ctx.moveTo(50, 50);
+        ctx.lineTo(50, 150);
+        ctx.lineWidth = 10;
+        ctx.strokeStyle = '#8B4513';
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(100, 50);
+        ctx.lineTo(100, 150);
+        ctx.lineWidth = 10;
+        ctx.strokeStyle = '#8B4513';
+        ctx.stroke();
+    </script>
+</body>
+</html>

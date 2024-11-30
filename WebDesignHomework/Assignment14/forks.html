@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forks for Eating Spaghetti</title>
+</head>
+<body>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Spaghetti Utensils</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forks.html">Forks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="spoons.html">Spoons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chopsticks.html">Chopsticks</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- info section -->
+    <div class="container">
+        <h1>Forks: Tailor-made for grabbing noodles</h1>
+        <p>Use this if you enjoy the twirling motion.</p>
+    </div>
+
+    <canvas id="forkCanvas" width="200" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('forkCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Draw fork
+        ctx.fillStyle = '#8B4513';
+        ctx.fillRect(90, 200, 20, 150);
+
+        ctx.fillStyle = '#C0C0C0';
+        ctx.fillRect(80, 150, 7, 50);
+        ctx.fillRect(90, 150, 7, 50);
+        ctx.fillRect(100, 150, 7, 50);
+        ctx.fillRect(110, 150, 7, 50);
+    </script>
+</body>
+</html>
