@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5e6ff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header {
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    text-align: center;
+    background-color: #f5d3ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.navbar {
+    padding: 1px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+}
+
+.image-link img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.information-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+iframe {
+    border: 2px solid #8d0000;
+    border-radius: 8px;
+}
+
+.holiday-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.holiday-item {
+    background-color: #f1f1f1;
+    border: 2px solid #cb0000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.holiday-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.holiday-item h3 {
+    color: #053900;
+}
+
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-item {
+    margin: 15px;
+    text-align: center;
+}
+.food-item img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.description {
+    background-color: #e7faff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
